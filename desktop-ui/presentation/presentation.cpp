@@ -17,7 +17,7 @@ Presentation::Presentation() {
   videoSizeMenu.setText("Size").setIcon(Icon::Emblem::Image);
 
   //generate size menu
-  u32 multipliers = 5;
+  u32 multipliers = 8;
   for(u32 multiplier : range(1, multipliers + 1)) {
     MenuRadioItem item{&videoSizeMenu};
     item.setText({multiplier, "x"});
